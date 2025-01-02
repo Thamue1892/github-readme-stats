@@ -6,7 +6,7 @@
  */
 
 import { logger, request, dateDiff } from "../../src/common/utils.js";
-export const RATE_LIMIT_SECONDS = 60 * 5; // 1 request per 5 minutes
+export const RATE_LIMIT_SECONDS = 60 * 2; // 1 request per 5 minutes
 
 /**
  * @typedef {import('axios').AxiosRequestHeaders} AxiosRequestHeaders Axios request headers.
